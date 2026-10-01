@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>About</title>
+        <link rel="stylesheet" href="style.css"/> 
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+            </nav>
+        </header>
+
+        <main>
+            <h1>About QuickNotes</h1>
+            <p>
+                “This is a simple productivity app that lets you write note. You can use it to jot down ideas.”
+            </p>
+
+            <section>
+                <h3>How to use QuickNotes</h3>
+                <p>Here are the steps</p>
+                <ol>
+                    <li>Open your app drawer</li>
+                    <li>Click on QuickNotes</li>
+                    <li>Start a new note</li>
+                </ol>
+            </section>
+
+            <section>
+                <h4>Features</h4>
+                <p>Here are some interesting features</p>
+                <ul class="features">
+                    <li>High refresh rate</li>
+                    <li>500nits brightness</li>
+                    <li>Dolby vision</li>
+                    <li>Dolby Atmos</li>
+                </ul>
+            </section>
+
+            <section>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Action</th>
+                            <th>Shortcut</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>Save file</td>
+                            <td><kbd>Ctrl</kbd> + <kbd>S</kbd></td>
+                        </tr>
+                        <td>Open Command Palette</td>
+                        <td><kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd></td>
+                    </tbody>
+                </table>
+            </section>
+            
+            <section>
+                <h4>Leave your feedback</h4>
+                <form id="feedback-form">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="Enter your full name" required>
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="type your email" required>
+                    <br>
+
+                    <label for="Message">Message</label>
+                    <br>
+                    <textarea id="Message" placeholder="Leave your feedback...." required></textarea>
+                    <br>
+                    <button type="submit">submit</button>
+                </form>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 QuickNotes. Built during Web Foundations. </p>
+        </footer>
+    </body>
+</html>

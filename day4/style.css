@@ -1,0 +1,65 @@
+:root {
+  --bg-color: #ffffff;
+  --text-color: #222222;
+  --border-color: #cccccc;
+  --button-bg: #222222;
+  --button-text: #ffffff;
+  --warning-color: #d97706;
+  --over-color: #dc2626;
+}
+
+body.dark {
+  --bg-color: #1f2937;
+  --text-color: #f9fafb;
+  --border-color: #4b5563;
+  --button-bg: #f9fafb;
+  --button-text: #1f2937;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+  background: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.2s, color 0.2s;
+}
+
+main {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+textarea {
+  display: block;
+  width: 100%;
+  min-height: 180px;
+  margin: 0.5rem 0 1rem;
+  padding: 0.75rem;
+  border: 1px solid var(--border-color);
+  background: var(--bg-color);
+  color: var(--text-color);
+  resize: vertical;
+}
+
+button {
+  margin-right: 0.5rem;
+  padding: 0.6rem 1rem;
+  border: none;
+  background: var(--button-bg);
+  color: var(--button-text);
+  cursor: pointer;
+}
+
+.warning {
+  color: var(--warning-color);
+}
+
+.over {
+  color: var(--over-color);
+  font-weight: bold;
+}
